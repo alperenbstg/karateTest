@@ -1,0 +1,518 @@
+12:27:04.954 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:27:05.265 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677842825265
+12:27:05.292 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:27:06.362 [main]  ERROR com.intuit.karate - src/test/resources/kareteTest.feature:4
+Given url baseUrl + '/public/v2/users'
+js failed:
+>>>>
+01: baseUrl + '/public/v2/users'
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/kareteTest.feature:4
+12:27:07.319 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:28:02.243 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:28:02.658 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677842882657
+12:28:02.683 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:28:03.702 [main]  ERROR com.intuit.karate - src/test/resources/kareteTest.feature:4
+Given url baseUrl + '/public/v2/users'
+js failed:
+>>>>
+01: baseUrl + '/public/v2/users'
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/kareteTest.feature:4
+12:28:04.641 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:29:01.707 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:29:01.842 [main]  INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+12:29:01.979 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677842941979
+12:29:02.001 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:29:03.023 [main]  ERROR com.intuit.karate - src/test/resources/kareteTest.feature:4
+Given url baseUrl + '/public/v2/users'
+js failed:
+>>>>
+01: baseUrl + '/public/v2/users'
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/kareteTest.feature:4
+12:29:03.985 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:29:44.924 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:29:45.056 [main]  INFO  com.intuit.karate.Runner - karate.env is: 'Hello Karate'
+12:29:45.161 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677842985161
+12:29:45.181 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:29:46.207 [main]  ERROR com.intuit.karate - src/test/resources/kareteTest.feature:4
+Given url baseUrl + '/public/v2/users'
+js failed:
+>>>>
+01: baseUrl + '/public/v2/users'
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/kareteTest.feature:4
+12:29:47.070 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:30:05.382 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:30:05.509 [main]  INFO  com.intuit.karate.Runner - karate.env is: 'hello karate'
+12:30:05.636 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677843005636
+12:30:05.658 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:30:06.687 [main]  ERROR com.intuit.karate - src/test/resources/kareteTest.feature:4
+Given url baseUrl + '/public/v2/users'
+js failed:
+>>>>
+01: baseUrl + '/public/v2/users'
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/kareteTest.feature:4
+12:30:07.649 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:31:37.707 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:31:38.022 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677843098022
+12:31:38.047 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:31:39.385 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1688
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:31:40.594 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1196
+1 < 200
+1 < Date: Fri, 03 Mar 2023 11:31:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a5aff2bd242891ffc2ff877ddbd7728a"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 4220af62-344a-40d6-a2e0-2bd98c79fd4c
+1 < x-runtime: 0.021158
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FMZt6ZDCDWrCpO%2F2pnwJg3txONdE%2BflSvZNIZrZ1xgMR0ODSIJJfegWAdhJLudE1dWOJJVSqqPAI59OOktOPQYl3aiPCu4Tx03m2SFwSNY%2Bb04k4ix8WW%2BkxrjTC6ec%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a218dee9c2392a8-FRA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"id":1688,"name":"Apsara Butt","email":"apsara_butt@larkin-pouros.biz","gender":"male","status":"inactive"}
+
+12:31:40.700 [main]  INFO  com.intuit.karate - [print] {
+  "id": 1688,
+  "name": "Apsara Butt",
+  "email": "apsara_butt@larkin-pouros.biz",
+  "gender": "male",
+  "status": "inactive"
+}
+ 
+12:31:40.723 [main]  INFO  com.intuit.karate - [print] {
+  "id": 1688,
+  "name": "Apsara Butt",
+  "email": "apsara_butt@larkin-pouros.biz",
+  "gender": "male",
+  "status": "inactive"
+}
+ 
+12:31:40.727 [main]  INFO  com.intuit.karate - [print] Apsara Butt 
+12:31:41.624 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:41:50.074 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:41:50.324 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677843710323
+12:41:50.345 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:41:51.693 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1688
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:41:52.369 [main]  DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 200
+1 < Date: Fri, 03 Mar 2023 11:41:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a5aff2bd242891ffc2ff877ddbd7728a"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 33b09c75-cf20-40bd-a3bb-2e19ef34cfd6
+1 < x-runtime: 0.012121
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CuB%2BK3eHPV02%2F8ikSJgqVobLqnDI%2B2xh0dB0PACLoMiBqCpLADgYHG5BfG2js3YjqSYn7DOmsZTrrMNMSVhzICPcdKlQ9zvEoecN9T1WPVVpl934Y10vwZtPLwYs%2Btk%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a219ce18fc092c3-FRA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"id":1688,"name":"Apsara Butt","email":"apsara_butt@larkin-pouros.biz","gender":"male","status":"inactive"}
+
+12:41:52.474 [main]  INFO  com.intuit.karate - [print] {
+  "id": 1688,
+  "name": "Apsara Butt",
+  "email": "apsara_butt@larkin-pouros.biz",
+  "gender": "male",
+  "status": "inactive"
+}
+ 
+12:41:52.495 [main]  INFO  com.intuit.karate - [print] {
+  "id": 1688,
+  "name": "Apsara Butt",
+  "email": "apsara_butt@larkin-pouros.biz",
+  "gender": "male",
+  "status": "inactive"
+}
+ 
+12:41:52.499 [main]  INFO  com.intuit.karate - [print] Apsara Butt 
+12:41:53.392 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:42:30.406 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:42:30.651 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677843750650
+12:42:30.676 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:42:31.709 [main]  ERROR com.intuit.karate - src/test/resources/kareteTest.feature:4
+Given url  baseUrl + 'https://gorest.co.in/public/v2/users'
+js failed:
+>>>>
+01: baseUrl + 'https://gorest.co.in/public/v2/users'
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/kareteTest.feature:4
+12:42:32.520 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+12:42:50.666 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+12:42:50.960 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1677843770959
+12:42:50.982 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:42:52.016 [main]  ERROR com.intuit.karate - src/test/resources/kareteTest.feature:4
+Given url  baseUrl + '/public/v2/users'
+js failed:
+>>>>
+01: baseUrl + '/public/v2/users'
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/kareteTest.feature:4
+12:42:52.889 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/kareteTest.feature
+00:03:07.964 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:03:08.251 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1678230188251
+00:03:09.687 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 7fc7c9e60a84439d9bf85105444e3777d4f8ac23d3fb3e2216d714980c1ba86f
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 99
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Alperen","email":"gandalfthebestwizardever@alperen.com","gender":"male","status":"active"}
+
+00:03:10.438 [main]  DEBUG com.intuit.karate - response time in milliseconds: 744
+1 < 201
+1 < Date: Tue, 07 Mar 2023 23:03:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"f4a65ed5a7a01a7f728a5a64140d4bba"
+1 < location: https://gorest.co.in/public/v2/users/871366
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 41b45eee-c438-425b-84b4-0b0d992c9e11
+1 < x-runtime: 0.058649
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ats9kx%2BRYGcAqXsT%2B0F5FHuFnWZtBrAxY2BmwUrcN0JCs5bMr%2FLt7qerZlaNp7AkAWNpUhcM3x6qvPyUgQNXAl9eRKkBwKWFmbQeb6lC6OIE6b%2BcR%2FAFKnoQK2fxmWE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a4678610ea459fb-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"id":871366,"name":"Alperen","email":"gandalfthebestwizardever@alperen.com","gender":"male","status":"active"}
+
+00:03:10.474 [main]  ERROR com.intuit.karate - src/test/resources/PostCall.feature:23
+And match $id == '#present'
+js failed:
+>>>>
+01: id
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "id" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/PostCall.feature:23
+00:03:11.431 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/PostCall.feature
+00:04:17.535 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:04:17.785 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1678230257785
+00:04:19.209 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 7fc7c9e60a84439d9bf85105444e3777d4f8ac23d3fb3e2216d714980c1ba86f
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 100
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Alperen","email":"gandalfthebestwizardever2@alperen.com","gender":"male","status":"active"}
+
+00:04:19.896 [main]  DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 201
+1 < Date: Tue, 07 Mar 2023 23:04:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"0b231a088368666f57fadf02f8cad503"
+1 < location: https://gorest.co.in/public/v2/users/871382
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 0ddaacaa-bf2f-4666-b1a6-b151fc662634
+1 < x-runtime: 0.080082
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dYQGexRzlcr12Azo3GiOPu94xGcPyzt3BXFjSGNBuP7Ki5%2B4eK%2BQt%2Bqn0XMfpsGohdzThdehTTi%2FqGWBohQdQpSYjMs6m%2F7EJvKeb%2ByA%2B%2BTDxUweKFYV2R25vF2Cs94%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a467a12ea4159cb-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"id":871382,"name":"Alperen","email":"gandalfthebestwizardever2@alperen.com","gender":"male","status":"active"}
+
+00:04:19.932 [main]  ERROR com.intuit.karate - src/test/resources/PostCall.feature:23
+And match $name == 'Alperen'
+js failed:
+>>>>
+01: name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/PostCall.feature:23
+00:04:20.770 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/PostCall.feature
+00:05:35.582 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:05:35.839 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1678230335839
+00:05:37.294 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 7fc7c9e60a84439d9bf85105444e3777d4f8ac23d3fb3e2216d714980c1ba86f
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 100
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Alperen","email":"gandalfthebestwizardever2@alperen.com","gender":"male","status":"active"}
+
+00:05:37.890 [main]  DEBUG com.intuit.karate - response time in milliseconds: 589
+1 < 422
+1 < Date: Tue, 07 Mar 2023 23:05:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 7a0eecb4-8780-4f97-977d-da7fd5021115
+1 < x-runtime: 0.043889
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uddTpSCBaE8QOadKgBL5ko2AKy8FsEIc50C%2BOBBWvp56Nb3PrKUH3lGcouY2IXUcg5guwHE5wkNOD1V0Nc%2B8hN%2FA43KH0gf%2Bvkc64GwhXNUyZ8wjT%2Bvt%2FbxBw6P07I4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a467bfaceb059cb-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"field":"email","message":"has already been taken"}]
+
+00:05:37.905 [main]  ERROR com.intuit.karate - src/test/resources/PostCall.feature:22
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 589, url: https://gorest.co.in/public/v2/users, response: 
+[{"field":"email","message":"has already been taken"}]
+src/test/resources/PostCall.feature:22
+00:05:38.765 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/PostCall.feature
+00:05:54.823 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:05:55.095 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1678230355095
+00:05:56.495 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 7fc7c9e60a84439d9bf85105444e3777d4f8ac23d3fb3e2216d714980c1ba86f
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Alperen","email":"gandalfthebestwizardever32@alperen.com","gender":"male","status":"active"}
+
+00:05:57.382 [main]  DEBUG com.intuit.karate - response time in milliseconds: 877
+1 < 201
+1 < Date: Tue, 07 Mar 2023 23:05:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"ed06d4a5190244c4676843c34f0b23ea"
+1 < location: https://gorest.co.in/public/v2/users/871407
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: ff6dd5c5-4a7b-44e9-bef3-50c03f9eeace
+1 < x-runtime: 0.158389
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KkgI9fiHu27lSf4V6%2BTUxoGr%2BjPbyy66xgllAgFuENgreyOSmhA%2BNNmyJ8Y76XRnwRC%2FdQ5ej%2Bobhg4bKdtn3sYG%2F6EcrPGqTQHNjnknpzZOIWxDPk32yuQ3TKlAL3M%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a467c733c615a2b-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"id":871407,"name":"Alperen","email":"gandalfthebestwizardever32@alperen.com","gender":"male","status":"active"}
+
+00:05:57.461 [main]  INFO  com.intuit.karate - [print] {
+  "id": 871407,
+  "name": "Alperen",
+  "email": "gandalfthebestwizardever32@alperen.com",
+  "gender": "male",
+  "status": "active"
+}
+ 
+00:05:58.282 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/resources/PostCall.feature
+00:06:31.110 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:06:31.437 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1678230391437
+00:06:32.885 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 7fc7c9e60a84439d9bf85105444e3777d4f8ac23d3fb3e2216d714980c1ba86f
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 102
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Alperen","email":"gandalfthebestwizardever332@alperen.com","gender":"male","status":"active"}
+
+00:06:33.492 [main]  DEBUG com.intuit.karate - response time in milliseconds: 600
+1 < 201
+1 < Date: Tue, 07 Mar 2023 23:06:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"3bba5542aae85d44661b3dd6f095a4e7"
+1 < location: https://gorest.co.in/public/v2/users/871416
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 11a54a5a-e752-4c5c-ac2e-04173cb43138
+1 < x-runtime: 0.054084
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IYBgEsurVpqdTssFnCC05n6qzblIyNN3fEbTCPQstuQjV3e22sIHhqFLMYxCaH8T%2BbJS6tBzPXCP8%2F2J78I9%2Bolma3mAk7khbqYpDbOhrwZP8QHwBQpAjv%2BkARUWrbg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a467d5649f45a37-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"id":871416,"name":"Alperen","email":"gandalfthebestwizardever332@alperen.com","gender":"male","status":"active"}
+
+00:06:33.533 [main]  ERROR com.intuit.karate - src/test/resources/PostCall.feature:23
+And match name == 'Alperen'
+js failed:
+>>>>
+01: name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "name" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/PostCall.feature:23
+00:06:34.443 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/PostCall.feature
+00:07:11.694 [main]  INFO  com.intuit.karate - Karate version: 1.2.0
+00:07:11.940 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1678230431940
+00:07:13.351 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 7fc7c9e60a84439d9bf85105444e3777d4f8ac23d3fb3e2216d714980c1ba86f
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 103
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Alperen","email":"gandalfthebestwizardever3332@alperen.com","gender":"male","status":"active"}
+
+00:07:14.278 [main]  DEBUG com.intuit.karate - response time in milliseconds: 919
+1 < 201
+1 < Date: Tue, 07 Mar 2023 23:07:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"e63d30ccd45153581fc313a887979a16"
+1 < location: https://gorest.co.in/public/v2/users/871427
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: e8aa696e-4699-4e1a-9bcd-0926416840e7
+1 < x-runtime: 0.074013
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ALBNZHOdKgMJDCnQ2duPGmiHB%2Fwpj9sSvPRQzF4bCmoVyRnpGP5vo%2BX%2FGzNID0rtUcgAcSYMm0cHemwCvd%2F8KDcXOORl3YAsablBgaU2mZ2aMZb2mmlq1vOZQoeqsOs%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7a467e533eff0e06-MXP
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"id":871427,"name":"Alperen","email":"gandalfthebestwizardever3332@alperen.com","gender":"male","status":"active"}
+
+00:07:14.321 [main]  ERROR com.intuit.karate - src/test/resources/PostCall.feature:23
+And match $data.name == 'Alperen'
+js failed:
+>>>>
+01: data
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "data" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/resources/PostCall.feature:23
+00:07:15.214 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/resources/PostCall.feature
